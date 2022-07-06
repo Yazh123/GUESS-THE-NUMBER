@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the number</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <img id="background" src="./assets/946312.webp" alt="">
+  <div class="pics">
+      <img id="pic1" src="./assets/guess-who.gif" alt="">
+      <img id="pic2" src="./assets/guess-who.gif" alt="">
+  </div>
+    <div class="container">
+        <div class="circle">
+           <h1 id="title"><span>Play at Your own Risk</h1>
+        </div>
+        <div class="body1">
+          <h1 id="heading">I have a number in my mind from 0 to 100. Can you guess it?</h1>
+          <div class="input-container">
+            <label id="textLabel">Enter the number : 
+              <input type="number" placeholder="NUMBER" id="textBox" min="0" max="100">
+            </label>
+              <button  type="submit" id="checkButton">submit</button>
+          </div>
+         <h2 id="attemptLabel">
+           NO.OF.ATTEMPTS :<span id="attemptCount">10</span>
+         </h2>
+           <div id="message"></div>
+        </div> 
+    </div>   
+<script src="./app.js"></script>
+</body>
+</html><div class="circle"></div>
+
